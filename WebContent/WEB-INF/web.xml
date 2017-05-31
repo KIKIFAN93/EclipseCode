@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<display-name></display-name>
+<welcome-file-list>
+<welcom-file>search.jsp</welcom-file>
+</welcome-file-list>
+<servlet>
+<servlet-name>search</servlet-name>
+<servlet-class>com.search.SearchServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>search</servlet-name>
+<url-pattern>/search</url-pattern>
+</servlet-mapping>
+</web-app>
